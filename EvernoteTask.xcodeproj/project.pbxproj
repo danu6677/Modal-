@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A0DBC6121AD66CC0081A050 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0DBC6021AD66CC0081A050 /* AppDelegate.swift */; };
+		2A0DBC6321AD66CC0081A050 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0DBC6221AD66CC0081A050 /* ViewController.swift */; };
+		2A0DBC6621AD66CC0081A050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0DBC6421AD66CC0081A050 /* Main.storyboard */; };
+		2A0DBC6821AD66CD0081A050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A0DBC6721AD66CD0081A050 /* Assets.xcassets */; };
+		2A0DBC6B21AD66CD0081A050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0DBC6921AD66CD0081A050 /* LaunchScreen.storyboard */; };
+		2A0DBC7621AD66CD0081A050 /* EvernoteTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0DBC7521AD66CD0081A050 /* EvernoteTaskTests.swift */; };
+		2A0DBC8121AD66CD0081A050 /* EvernoteTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0DBC8021AD66CD0081A050 /* EvernoteTaskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A0DBC7221AD66CD0081A050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A0DBC5521AD66CC0081A050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A0DBC5C21AD66CC0081A050;
+			remoteInfo = EvernoteTask;
+		};
+		2A0DBC7D21AD66CD0081A050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A0DBC5521AD66CC0081A050 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A0DBC5C21AD66CC0081A050;
+			remoteInfo = EvernoteTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A0DBC5D21AD66CC0081A050 /* EvernoteTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvernoteTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0DBC6021AD66CC0081A050 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A0DBC6221AD66CC0081A050 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A0DBC6521AD66CC0081A050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A0DBC6721AD66CD0081A050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A0DBC6A21AD66CD0081A050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A0DBC6C21AD66CD0081A050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A0DBC7121AD66CD0081A050 /* EvernoteTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvernoteTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0DBC7521AD66CD0081A050 /* EvernoteTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvernoteTaskTests.swift; sourceTree = "<group>"; };
+		2A0DBC7721AD66CD0081A050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A0DBC7C21AD66CD0081A050 /* EvernoteTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvernoteTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0DBC8021AD66CD0081A050 /* EvernoteTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvernoteTaskUITests.swift; sourceTree = "<group>"; };
+		2A0DBC8221AD66CD0081A050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A0DBC5A21AD66CC0081A050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0DBC6E21AD66CD0081A050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0DBC7921AD66CD0081A050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A0DBC5421AD66CC0081A050 = {
+			isa = PBXGroup;
+			children = (
+				2A0DBC5F21AD66CC0081A050 /* EvernoteTask */,
+				2A0DBC7421AD66CD0081A050 /* EvernoteTaskTests */,
+				2A0DBC7F21AD66CD0081A050 /* EvernoteTaskUITests */,
+				2A0DBC5E21AD66CC0081A050 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A0DBC5E21AD66CC0081A050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A0DBC5D21AD66CC0081A050 /* EvernoteTask.app */,
+				2A0DBC7121AD66CD0081A050 /* EvernoteTaskTests.xctest */,
+				2A0DBC7C21AD66CD0081A050 /* EvernoteTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A0DBC5F21AD66CC0081A050 /* EvernoteTask */ = {
+			isa = PBXGroup;
+			children = (
+				2A0DBC6021AD66CC0081A050 /* AppDelegate.swift */,
+				2A0DBC6221AD66CC0081A050 /* ViewController.swift */,
+				2A0DBC6421AD66CC0081A050 /* Main.storyboard */,
+				2A0DBC6721AD66CD0081A050 /* Assets.xcassets */,
+				2A0DBC6921AD66CD0081A050 /* LaunchScreen.storyboard */,
+				2A0DBC6C21AD66CD0081A050 /* Info.plist */,
+			);
+			path = EvernoteTask;
+			sourceTree = "<group>";
+		};
+		2A0DBC7421AD66CD0081A050 /* EvernoteTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A0DBC7521AD66CD0081A050 /* EvernoteTaskTests.swift */,
+				2A0DBC7721AD66CD0081A050 /* Info.plist */,
+			);
+			path = EvernoteTaskTests;
+			sourceTree = "<group>";
+		};
+		2A0DBC7F21AD66CD0081A050 /* EvernoteTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A0DBC8021AD66CD0081A050 /* EvernoteTaskUITests.swift */,
+				2A0DBC8221AD66CD0081A050 /* Info.plist */,
+			);
+			path = EvernoteTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A0DBC5C21AD66CC0081A050 /* EvernoteTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A0DBC8521AD66CD0081A050 /* Build configuration list for PBXNativeTarget "EvernoteTask" */;
+			buildPhases = (
+				2A0DBC5921AD66CC0081A050 /* Sources */,
+				2A0DBC5A21AD66CC0081A050 /* Frameworks */,
+				2A0DBC5B21AD66CC0081A050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EvernoteTask;
+			productName = EvernoteTask;
+			productReference = 2A0DBC5D21AD66CC0081A050 /* EvernoteTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A0DBC7021AD66CD0081A050 /* EvernoteTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A0DBC8821AD66CD0081A050 /* Build configuration list for PBXNativeTarget "EvernoteTaskTests" */;
+			buildPhases = (
+				2A0DBC6D21AD66CD0081A050 /* Sources */,
+				2A0DBC6E21AD66CD0081A050 /* Frameworks */,
+				2A0DBC6F21AD66CD0081A050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A0DBC7321AD66CD0081A050 /* PBXTargetDependency */,
+			);
+			name = EvernoteTaskTests;
+			productName = EvernoteTaskTests;
+			productReference = 2A0DBC7121AD66CD0081A050 /* EvernoteTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A0DBC7B21AD66CD0081A050 /* EvernoteTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A0DBC8B21AD66CD0081A050 /* Build configuration list for PBXNativeTarget "EvernoteTaskUITests" */;
+			buildPhases = (
+				2A0DBC7821AD66CD0081A050 /* Sources */,
+				2A0DBC7921AD66CD0081A050 /* Frameworks */,
+				2A0DBC7A21AD66CD0081A050 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A0DBC7E21AD66CD0081A050 /* PBXTargetDependency */,
+			);
+			name = EvernoteTaskUITests;
+			productName = EvernoteTaskUITests;
+			productReference = 2A0DBC7C21AD66CD0081A050 /* EvernoteTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A0DBC5521AD66CC0081A050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Auxenta;
+				TargetAttributes = {
+					2A0DBC5C21AD66CC0081A050 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					2A0DBC7021AD66CD0081A050 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2A0DBC5C21AD66CC0081A050;
+					};
+					2A0DBC7B21AD66CD0081A050 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2A0DBC5C21AD66CC0081A050;
+					};
+				};
+			};
+			buildConfigurationList = 2A0DBC5821AD66CC0081A050 /* Build configuration list for PBXProject "EvernoteTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A0DBC5421AD66CC0081A050;
+			productRefGroup = 2A0DBC5E21AD66CC0081A050 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A0DBC5C21AD66CC0081A050 /* EvernoteTask */,
+				2A0DBC7021AD66CD0081A050 /* EvernoteTaskTests */,
+				2A0DBC7B21AD66CD0081A050 /* EvernoteTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A0DBC5B21AD66CC0081A050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0DBC6B21AD66CD0081A050 /* LaunchScreen.storyboard in Resources */,
+				2A0DBC6821AD66CD0081A050 /* Assets.xcassets in Resources */,
+				2A0DBC6621AD66CC0081A050 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0DBC6F21AD66CD0081A050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0DBC7A21AD66CD0081A050 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A0DBC5921AD66CC0081A050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0DBC6321AD66CC0081A050 /* ViewController.swift in Sources */,
+				2A0DBC6121AD66CC0081A050 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0DBC6D21AD66CD0081A050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0DBC7621AD66CD0081A050 /* EvernoteTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0DBC7821AD66CD0081A050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0DBC8121AD66CD0081A050 /* EvernoteTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A0DBC7321AD66CD0081A050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A0DBC5C21AD66CC0081A050 /* EvernoteTask */;
+			targetProxy = 2A0DBC7221AD66CD0081A050 /* PBXContainerItemProxy */;
+		};
+		2A0DBC7E21AD66CD0081A050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A0DBC5C21AD66CC0081A050 /* EvernoteTask */;
+			targetProxy = 2A0DBC7D21AD66CD0081A050 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A0DBC6421AD66CC0081A050 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A0DBC6521AD66CC0081A050 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A0DBC6921AD66CD0081A050 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A0DBC6A21AD66CD0081A050 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A0DBC8321AD66CD0081A050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A0DBC8421AD66CD0081A050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A0DBC8621AD66CD0081A050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PAKWVRXE68;
+				INFOPLIST_FILE = EvernoteTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = come.Auxenta.EvernoteTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A0DBC8721AD66CD0081A050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PAKWVRXE68;
+				INFOPLIST_FILE = EvernoteTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = come.Auxenta.EvernoteTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A0DBC8921AD66CD0081A050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PAKWVRXE68;
+				INFOPLIST_FILE = EvernoteTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = come.Auxenta.EvernoteTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EvernoteTask.app/EvernoteTask";
+			};
+			name = Debug;
+		};
+		2A0DBC8A21AD66CD0081A050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PAKWVRXE68;
+				INFOPLIST_FILE = EvernoteTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = come.Auxenta.EvernoteTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EvernoteTask.app/EvernoteTask";
+			};
+			name = Release;
+		};
+		2A0DBC8C21AD66CD0081A050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PAKWVRXE68;
+				INFOPLIST_FILE = EvernoteTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = come.Auxenta.EvernoteTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EvernoteTask;
+			};
+			name = Debug;
+		};
+		2A0DBC8D21AD66CD0081A050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PAKWVRXE68;
+				INFOPLIST_FILE = EvernoteTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = come.Auxenta.EvernoteTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EvernoteTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A0DBC5821AD66CC0081A050 /* Build configuration list for PBXProject "EvernoteTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0DBC8321AD66CD0081A050 /* Debug */,
+				2A0DBC8421AD66CD0081A050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A0DBC8521AD66CD0081A050 /* Build configuration list for PBXNativeTarget "EvernoteTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0DBC8621AD66CD0081A050 /* Debug */,
+				2A0DBC8721AD66CD0081A050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A0DBC8821AD66CD0081A050 /* Build configuration list for PBXNativeTarget "EvernoteTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0DBC8921AD66CD0081A050 /* Debug */,
+				2A0DBC8A21AD66CD0081A050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A0DBC8B21AD66CD0081A050 /* Build configuration list for PBXNativeTarget "EvernoteTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0DBC8C21AD66CD0081A050 /* Debug */,
+				2A0DBC8D21AD66CD0081A050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A0DBC5521AD66CC0081A050 /* Project object */;
+}
