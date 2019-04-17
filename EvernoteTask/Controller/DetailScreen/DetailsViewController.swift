@@ -10,30 +10,28 @@ import UIKit
 
 class DetailsViewController: UIViewController {
  var hotelDetails : HotelData?
-    var addButton: UIBarButtonItem = UIBarButtonItem(title: "test", style: .done, target: self, action: #selector(addTapped))
-
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.rightBarButtonItem = self.addButton
-        let add = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addTapped))
-       
-        navigationItem.rightBarButtonItems = [add]
-         let url  = URL(string: (hotelDetails?.image!["small"])!)
-        print(url!)
-        if let url  = URL(string: (hotelDetails?.image!["small"])!) {
-            print(url)
-            imageView.contentMode = .scaleAspectFit
-            downloadImage(from: url)
-        }
+        self.navigationItem.title = "Details"
+        configureBarButton()
+        let url : NSMutableString =  NSMutableString(string: hotelDetails?.image!.small! ?? "")
+        url.insert("s", at: 4)
+        Utils.setImageViewImage(forImageView: imageView, withImageUrl: url as String)
        titleLabel.text = hotelDetails?.title
        descriptionLabel.text = hotelDetails?.descriptionData
     }
-    
-    func downloadImage(from url: URL) {
+    private func configureBarButton() {
+        let button = UIButton.init(type: .custom)
+        button.setImage(UIImage.init(named: "location_icon"), for: .normal)
+        button.addTarget(self, action:#selector(addTapped), for:.touchUpInside)
+        let barButton = UIBarButtonItem.init(customView: button)
+        self.navigationItem.rightBarButtonItem = barButton
+    }
+    private func downloadImage(from url: URL) {
         getData(from: url) { data, response, error in
             guard let data = data, error == nil else { return }
             print(response?.suggestedFilename ?? url.lastPathComponent)
@@ -43,13 +41,19 @@ class DetailsViewController: UIViewController {
             }
         }
     }
-    func getData(from url: URL, completion: @escaping (Data?, URLResponse?, Error?) -> ()) {
+    private func getData(from url: URL, completion: @escaping (Data?, URLResponse?, Error?) -> ()) {
         URLSession.shared.dataTask(with: url, completionHandler: completion).resume()
     }
     @objc func addTapped(sender: AnyObject) {
+        //once the location Icontapped
         performSegue(withIdentifier: "ShowMap", sender: nil)
-        print("tapped")
+        print("tapped Bar button")
         
     }
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "ShowMap") {
+//            let vc = segue.destination as! MapViewController
+//            vc.locationDetails  = hotelDetails
+        }
+    }
 }

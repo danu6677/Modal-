@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		2A0DBC6121AD66CC0081A050 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0DBC6021AD66CC0081A050 /* AppDelegate.swift */; };
-		2A0DBC6321AD66CC0081A050 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0DBC6221AD66CC0081A050 /* ViewController.swift */; };
 		2A0DBC6621AD66CC0081A050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0DBC6421AD66CC0081A050 /* Main.storyboard */; };
 		2A0DBC6821AD66CD0081A050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A0DBC6721AD66CD0081A050 /* Assets.xcassets */; };
 		2A0DBC6B21AD66CD0081A050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0DBC6921AD66CD0081A050 /* LaunchScreen.storyboard */; };
 		2A0DBC7621AD66CD0081A050 /* EvernoteTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0DBC7521AD66CD0081A050 /* EvernoteTaskTests.swift */; };
 		2A0DBC8121AD66CD0081A050 /* EvernoteTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0DBC8021AD66CD0081A050 /* EvernoteTaskUITests.swift */; };
+		2A0DBC9321AD67640081A050 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0DBC9221AD67640081A050 /* SignInViewController.swift */; };
+		2A79157D21AD69FC008C479E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79157C21AD69FC008C479E /* Config.swift */; };
+		2A79157F21AD6A0D008C479E /* NetworkCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79157E21AD6A0D008C479E /* NetworkCalls.swift */; };
+		2A79158121AD6A19008C479E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79158021AD6A19008C479E /* Utils.swift */; };
+		2A79158321AD6A28008C479E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79158221AD6A28008C479E /* Constants.swift */; };
+		2A79158921AD95B8008C479E /* FaceebookSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79158821AD95B8008C479E /* FaceebookSignIn.swift */; };
+		2A79158B21AD9CBD008C479E /* HotelDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79158A21AD9CBD008C479E /* HotelDataViewController.swift */; };
+		2A79158E21ADA7E5008C479E /* HotelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79158D21ADA7E5008C479E /* HotelData.swift */; };
+		2A79159221AE7FFA008C479E /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79159121AE7FFA008C479E /* DetailsViewController.swift */; };
+		2A79159421AE9276008C479E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79159321AE9276008C479E /* MapViewController.swift */; };
+		70A7E2E89DCA2C6DA3BD8B92 /* Pods_EvernoteTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13040FE1D4D788894E58A719 /* Pods_EvernoteTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13040FE1D4D788894E58A719 /* Pods_EvernoteTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EvernoteTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A62129F3A4094B377B7F8D /* Pods-EvernoteTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvernoteTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EvernoteTask/Pods-EvernoteTask.debug.xcconfig"; sourceTree = "<group>"; };
 		2A0DBC5D21AD66CC0081A050 /* EvernoteTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvernoteTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A0DBC6021AD66CC0081A050 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2A0DBC6221AD66CC0081A050 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2A0DBC6521AD66CC0081A050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A0DBC6721AD66CD0081A050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A0DBC6A21AD66CD0081A050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,17 @@
 		2A0DBC7C21AD66CD0081A050 /* EvernoteTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvernoteTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A0DBC8021AD66CD0081A050 /* EvernoteTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvernoteTaskUITests.swift; sourceTree = "<group>"; };
 		2A0DBC8221AD66CD0081A050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A0DBC9221AD67640081A050 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		2A79157C21AD69FC008C479E /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		2A79157E21AD6A0D008C479E /* NetworkCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCalls.swift; sourceTree = "<group>"; };
+		2A79158021AD6A19008C479E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		2A79158221AD6A28008C479E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2A79158821AD95B8008C479E /* FaceebookSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceebookSignIn.swift; sourceTree = "<group>"; };
+		2A79158A21AD9CBD008C479E /* HotelDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelDataViewController.swift; sourceTree = "<group>"; };
+		2A79158D21ADA7E5008C479E /* HotelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelData.swift; sourceTree = "<group>"; };
+		2A79159121AE7FFA008C479E /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		2A79159321AE9276008C479E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B87CEAC719AA0B765F533491 /* Pods-EvernoteTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EvernoteTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-EvernoteTask/Pods-EvernoteTask.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70A7E2E89DCA2C6DA3BD8B92 /* Pods_EvernoteTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,8 @@
 				2A0DBC7421AD66CD0081A050 /* EvernoteTaskTests */,
 				2A0DBC7F21AD66CD0081A050 /* EvernoteTaskUITests */,
 				2A0DBC5E21AD66CC0081A050 /* Products */,
+				AB72F677B8D50D3CF526D059 /* Pods */,
+				7FA562516582A57014EE3913 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +123,11 @@
 			isa = PBXGroup;
 			children = (
 				2A0DBC6021AD66CC0081A050 /* AppDelegate.swift */,
-				2A0DBC6221AD66CC0081A050 /* ViewController.swift */,
-				2A0DBC6421AD66CC0081A050 /* Main.storyboard */,
+				2A0DBC9121AD66F10081A050 /* HelperClasses */,
+				2A0DBC9021AD66E90081A050 /* Controller */,
+				2A0DBC8F21AD66DF0081A050 /* View */,
+				2A0DBC8E21AD66D30081A050 /* Model */,
 				2A0DBC6721AD66CD0081A050 /* Assets.xcassets */,
-				2A0DBC6921AD66CD0081A050 /* LaunchScreen.storyboard */,
 				2A0DBC6C21AD66CD0081A050 /* Info.plist */,
 			);
 			path = EvernoteTask;
@@ -125,6 +151,143 @@
 			path = EvernoteTaskUITests;
 			sourceTree = "<group>";
 		};
+		2A0DBC8E21AD66D30081A050 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A79158C21ADA7CF008C479E /* HotelData */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A0DBC8F21AD66DF0081A050 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A0DBC6921AD66CD0081A050 /* LaunchScreen.storyboard */,
+				2A0DBC6421AD66CC0081A050 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A0DBC9021AD66E90081A050 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A79159521AE9EB5008C479E /* SignInScreen */,
+				2A79159821AE9F3E008C479E /* Home */,
+				2A79159621AE9EC6008C479E /* DetailScreen */,
+				2A79159721AE9F04008C479E /* Maps */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A0DBC9121AD66F10081A050 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2A79158721AD95A3008C479E /* FacebookSignin */,
+				2A79157B21AD69DA008C479E /* Config */,
+				2A79157A21AD69CE008C479E /* Network */,
+				2A79157921AD69C7008C479E /* Utils */,
+				2A79157821AD69B7008C479E /* Constants */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		2A79157821AD69B7008C479E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2A79158221AD6A28008C479E /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		2A79157921AD69C7008C479E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2A79158021AD6A19008C479E /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2A79157A21AD69CE008C479E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2A79157E21AD6A0D008C479E /* NetworkCalls.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2A79157B21AD69DA008C479E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				2A79157C21AD69FC008C479E /* Config.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		2A79158721AD95A3008C479E /* FacebookSignin */ = {
+			isa = PBXGroup;
+			children = (
+				2A79158821AD95B8008C479E /* FaceebookSignIn.swift */,
+			);
+			path = FacebookSignin;
+			sourceTree = "<group>";
+		};
+		2A79158C21ADA7CF008C479E /* HotelData */ = {
+			isa = PBXGroup;
+			children = (
+				2A79158D21ADA7E5008C479E /* HotelData.swift */,
+			);
+			path = HotelData;
+			sourceTree = "<group>";
+		};
+		2A79159521AE9EB5008C479E /* SignInScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2A0DBC9221AD67640081A050 /* SignInViewController.swift */,
+			);
+			path = SignInScreen;
+			sourceTree = "<group>";
+		};
+		2A79159621AE9EC6008C479E /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2A79159121AE7FFA008C479E /* DetailsViewController.swift */,
+			);
+			path = DetailScreen;
+			sourceTree = "<group>";
+		};
+		2A79159721AE9F04008C479E /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				2A79159321AE9276008C479E /* MapViewController.swift */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		2A79159821AE9F3E008C479E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2A79158A21AD9CBD008C479E /* HotelDataViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7FA562516582A57014EE3913 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13040FE1D4D788894E58A719 /* Pods_EvernoteTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB72F677B8D50D3CF526D059 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24A62129F3A4094B377B7F8D /* Pods-EvernoteTask.debug.xcconfig */,
+				B87CEAC719AA0B765F533491 /* Pods-EvernoteTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +295,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A0DBC8521AD66CD0081A050 /* Build configuration list for PBXNativeTarget "EvernoteTask" */;
 			buildPhases = (
+				9069ABE691726761DF71D35D /* [CP] Check Pods Manifest.lock */,
 				2A0DBC5921AD66CC0081A050 /* Sources */,
 				2A0DBC5A21AD66CC0081A050 /* Frameworks */,
 				2A0DBC5B21AD66CC0081A050 /* Resources */,
+				D78FBB359169A8A8B67C0DE3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,13 +416,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9069ABE691726761DF71D35D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EvernoteTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D78FBB359169A8A8B67C0DE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EvernoteTask/Pods-EvernoteTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EvernoteTask/Pods-EvernoteTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A0DBC5921AD66CC0081A050 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A0DBC6321AD66CC0081A050 /* ViewController.swift in Sources */,
+				2A79158E21ADA7E5008C479E /* HotelData.swift in Sources */,
+				2A79158121AD6A19008C479E /* Utils.swift in Sources */,
+				2A79158921AD95B8008C479E /* FaceebookSignIn.swift in Sources */,
+				2A79159221AE7FFA008C479E /* DetailsViewController.swift in Sources */,
 				2A0DBC6121AD66CC0081A050 /* AppDelegate.swift in Sources */,
+				2A0DBC9321AD67640081A050 /* SignInViewController.swift in Sources */,
+				2A79159421AE9276008C479E /* MapViewController.swift in Sources */,
+				2A79157F21AD6A0D008C479E /* NetworkCalls.swift in Sources */,
+				2A79158B21AD9CBD008C479E /* HotelDataViewController.swift in Sources */,
+				2A79157D21AD69FC008C479E /* Config.swift in Sources */,
+				2A79158321AD6A28008C479E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,11 +657,13 @@
 		};
 		2A0DBC8621AD66CD0081A050 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A62129F3A4094B377B7F8D /* Pods-EvernoteTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PAKWVRXE68;
 				INFOPLIST_FILE = EvernoteTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +677,13 @@
 		};
 		2A0DBC8721AD66CD0081A050 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B87CEAC719AA0B765F533491 /* Pods-EvernoteTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PAKWVRXE68;
 				INFOPLIST_FILE = EvernoteTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
