@@ -71,11 +71,10 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="104"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2r-Dl-R0U">
-                                        <rect key="frame" x="137.5" y="65" width="100" height="30"/>
+                                        <rect key="frame" x="161.5" y="65" width="52" height="30"/>
                                         <color key="backgroundColor" red="0.13105377177036948" green="0.46582888547055834" blue="0.40928291350991641" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="ZBT-L5-0eW"/>
-                                            <constraint firstAttribute="width" constant="100" id="l9y-n2-JoO"/>
                                         </constraints>
                                         <state key="normal" title="Logout ">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
